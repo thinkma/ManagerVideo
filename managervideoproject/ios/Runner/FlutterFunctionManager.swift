@@ -24,7 +24,7 @@ class FlutterFunctionManager: NSObject {
         
         let email:MFMailComposeViewController = MFMailComposeViewController();
         email.mailComposeDelegate = self;
-        email.setToRecipients(["safevideoiosapp@126.com"]);
+        email.setToRecipients(["xxxxx@126.com"]);
         email.setMessageBody("邮件正文", isHTML: false);
         email.setSubject("联系我们");
         root.present(email, animated: true, completion: nil);
